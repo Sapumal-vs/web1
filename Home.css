@@ -248,6 +248,7 @@ header{
     header{
         padding: 0 10px 0 10px;
         position: fixed;
+        background-color: #fff;
     }
     .header_icon_sub{
         background-color:unset;
@@ -261,6 +262,31 @@ header{
     .MainInterface_Sec01 nav ul li .dropdown_menu {
         display: none;
     }
+    
+
+    .header_icon_sub:hover{
+        background-color:unset;
+        
+    }
+        .header_icon_sub div:hover{
+            transition: .3s;
+            transform: translatey(-1px);
+            /* transform: scale(1.1); */
+        }
+            .header_icon_sub div i{
+                
+                font-size: 20px;
+                color:rgb(71, 72, 73)
+            }
+            .header_icon_sub div:hover i{
+                color: red;
+                transition: .3s;
+            }
+            .header_icon_Menu i{
+                margin:2px;
+                font-size: 25px;
+                color:rgb(0, 110, 255)
+            }
 }
 
 
