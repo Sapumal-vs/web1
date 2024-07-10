@@ -11,3 +11,20 @@ Resp_menu_js.addEventListener('click', function(){
     nvmm.classList.toggle('newcdd');
     })
    
+
+
+    let www = document.getElementById('www');
+    let ppp = document.getElementById('ppp');
+    // let room = document.getElementById('room');
+
+    window.addEventListener('scroll', function(){
+        let value = window.scrollY;
+        //  www.style.transform = `translateX(-${value * 0.2}px) translateY(${value * 0.5}px)`;
+        www.style.left = value * -2 + 'px';
+         www.style.top = value * .7 + 'px';
+
+        ppp.style.top = value * 1 + 'px';
+         ppp.style.top = value * 0.5 + 'px';
+
+        //  room.style.top = value * .5 + 'px';
+    })
